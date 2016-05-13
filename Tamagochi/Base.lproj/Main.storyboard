@@ -3,7 +3,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
-        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
@@ -26,9 +25,6 @@
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ground" translatesAutoresizingMaskIntoConstraints="NO" id="oaK-jD-mQt">
                                 <rect key="frame" x="0.0" y="540" width="600" height="60"/>
-                                <variation key="heightClass=compact" misplaced="YES">
-                                    <rect key="frame" x="0.0" y="340" width="600" height="60"/>
-                                </variation>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="livespanel" translatesAutoresizingMaskIntoConstraints="NO" id="mGR-CU-U4m">
                                 <rect key="frame" x="150" y="30" width="300" height="74"/>
@@ -39,7 +35,7 @@
                             <stackView opaque="NO" contentMode="scaleAspectFit" distribution="fillProportionally" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="ZMH-J6-LNn">
                                 <rect key="frame" x="201" y="48" width="192" height="45"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="skull" translatesAutoresizingMaskIntoConstraints="NO" id="FIE-In-9U9">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="skull" translatesAutoresizingMaskIntoConstraints="NO" id="FIE-In-9U9">
                                         <rect key="frame" x="0.0" y="0.0" width="62" height="45"/>
                                         <variation key="heightClass=compact-widthClass=compact" misplaced="YES">
                                             <rect key="frame" x="0.0" y="0.0" width="28" height="18"/>
@@ -48,7 +44,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="93" height="59"/>
                                         </variation>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="skull" translatesAutoresizingMaskIntoConstraints="NO" id="CKM-ab-83r">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="skull" translatesAutoresizingMaskIntoConstraints="NO" id="CKM-ab-83r">
                                         <rect key="frame" x="67" y="0.0" width="62" height="45"/>
                                         <variation key="heightClass=compact-widthClass=compact" misplaced="YES">
                                             <rect key="frame" x="28" y="0.0" width="28" height="18"/>
@@ -57,7 +53,7 @@
                                             <rect key="frame" x="93" y="0.0" width="94" height="59"/>
                                         </variation>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="skull" translatesAutoresizingMaskIntoConstraints="NO" id="E5Z-FN-MYM">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="skull" translatesAutoresizingMaskIntoConstraints="NO" id="E5Z-FN-MYM">
                                         <rect key="frame" x="134" y="0.0" width="58" height="45"/>
                                         <variation key="heightClass=compact-widthClass=compact" misplaced="YES">
                                             <rect key="frame" x="56" y="0.0" width="28" height="18"/>
@@ -79,24 +75,15 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="300" id="ck0-kT-lsW"/>
                                 </constraints>
-                                <variation key="heightClass=compact" misplaced="YES">
-                                    <rect key="frame" x="-85" y="54" width="890" height="300"/>
-                                </variation>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="80" translatesAutoresizingMaskIntoConstraints="NO" id="ifx-S5-w9e">
                                 <rect key="frame" x="165" y="123" width="270" height="98"/>
                                 <subviews>
                                     <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart" translatesAutoresizingMaskIntoConstraints="NO" id="wNG-Pb-aed" customClass="DragImg" customModule="Tamagochi" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="95" height="98"/>
-                                        <variation key="heightClass=compact" misplaced="YES">
-                                            <rect key="frame" x="0.0" y="0.0" width="62" height="50"/>
-                                        </variation>
                                     </imageView>
                                     <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="food" translatesAutoresizingMaskIntoConstraints="NO" id="6yl-us-OCG" customClass="DragImg" customModule="Tamagochi" customModuleProvider="target">
                                         <rect key="frame" x="175" y="0.0" width="95" height="98"/>
-                                        <variation key="heightClass=compact" misplaced="YES">
-                                            <rect key="frame" x="0.0" y="130" width="62" height="49"/>
-                                        </variation>
                                     </imageView>
                                 </subviews>
                                 <constraints>
@@ -107,8 +94,7 @@
                                         <exclude reference="PJM-mi-4y4"/>
                                     </mask>
                                 </variation>
-                                <variation key="heightClass=compact" axis="vertical" misplaced="YES">
-                                    <rect key="frame" x="482" y="45" width="62" height="179"/>
+                                <variation key="heightClass=compact" axis="vertical">
                                     <mask key="constraints">
                                         <include reference="PJM-mi-4y4"/>
                                     </mask>
@@ -124,7 +110,6 @@
                             <constraint firstItem="ifx-S5-w9e" firstAttribute="centerX" secondItem="mGR-CU-U4m" secondAttribute="centerX" id="650-Bj-hBv"/>
                             <constraint firstItem="mfn-83-6ws" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="151" id="8UL-y9-thN"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="LAO-K3-vh1" secondAttribute="bottom" id="95C-jP-BPf"/>
-                            <constraint firstItem="oaK-jD-mQt" firstAttribute="top" secondItem="mfn-83-6ws" secondAttribute="baseline" constant="-14" id="A5O-O2-3Hc"/>
                             <constraint firstItem="mfn-83-6ws" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="-103" id="ADO-me-fjd"/>
                             <constraint firstItem="mGR-CU-U4m" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Agf-HN-cOv"/>
                             <constraint firstItem="ifx-S5-w9e" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DyD-YY-41K"/>
@@ -187,7 +172,6 @@
                                 <exclude reference="ADO-me-fjd"/>
                                 <exclude reference="nhA-Ty-UVY"/>
                                 <exclude reference="rvt-tC-DTA"/>
-                                <exclude reference="A5O-O2-3Hc"/>
                                 <exclude reference="ISh-KJ-Bvp"/>
                                 <exclude reference="eSL-SL-3d3"/>
                                 <exclude reference="G5F-bF-Wyg"/>
@@ -205,7 +189,6 @@
                                 <include reference="NHV-dp-xPb"/>
                                 <exclude reference="kWy-FU-3Am"/>
                                 <include reference="wXt-bR-4s6"/>
-                                <include reference="A5O-O2-3Hc"/>
                                 <include reference="ISh-KJ-Bvp"/>
                                 <exclude reference="3zK-6Z-sQQ"/>
                             </mask>
@@ -224,7 +207,6 @@
                                 <exclude reference="hgu-AH-mLM"/>
                                 <exclude reference="wXt-bR-4s6"/>
                                 <exclude reference="1VS-2A-YDt"/>
-                                <exclude reference="A5O-O2-3Hc"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">

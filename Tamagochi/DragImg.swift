@@ -57,7 +57,6 @@ class DragImg: UIImageView{
             CGContextTranslateCTM(context, -point.x, -point.y);
     
             target.layer.renderInContext(context)
-            print(pixel)
             let floatAlpha = CGFloat(pixel[3])/255
 
         

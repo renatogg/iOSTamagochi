@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6486FF201CE58A14009E5D0F /* bite.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6486FF1B1CE58A14009E5D0F /* bite.wav */; };
+		6486FF211CE58A14009E5D0F /* cave-music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6486FF1C1CE58A14009E5D0F /* cave-music.mp3 */; };
+		6486FF221CE58A14009E5D0F /* death.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6486FF1D1CE58A14009E5D0F /* death.wav */; };
+		6486FF231CE58A14009E5D0F /* heart.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6486FF1E1CE58A14009E5D0F /* heart.wav */; };
+		6486FF241CE58A14009E5D0F /* skull.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6486FF1F1CE58A14009E5D0F /* skull.wav */; };
 		64A6FF8F1CE56CCC00A3AB72 /* DragImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A6FF8E1CE56CCC00A3AB72 /* DragImg.swift */; };
 		64A6FF911CE5705A00A3AB72 /* MonsterImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A6FF901CE5705A00A3AB72 /* MonsterImg.swift */; };
 		64AC9C191CE10D7200BF026E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AC9C181CE10D7200BF026E /* AppDelegate.swift */; };
@@ -17,6 +22,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6486FF1B1CE58A14009E5D0F /* bite.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bite.wav; sourceTree = "<group>"; };
+		6486FF1C1CE58A14009E5D0F /* cave-music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "cave-music.mp3"; sourceTree = "<group>"; };
+		6486FF1D1CE58A14009E5D0F /* death.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = death.wav; sourceTree = "<group>"; };
+		6486FF1E1CE58A14009E5D0F /* heart.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = heart.wav; sourceTree = "<group>"; };
+		6486FF1F1CE58A14009E5D0F /* skull.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = skull.wav; sourceTree = "<group>"; };
 		64A6FF8E1CE56CCC00A3AB72 /* DragImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragImg.swift; sourceTree = "<group>"; };
 		64A6FF901CE5705A00A3AB72 /* MonsterImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonsterImg.swift; sourceTree = "<group>"; };
 		64AC9C151CE10D7200BF026E /* Tamagochi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tamagochi.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,6 +68,11 @@
 		64AC9C171CE10D7200BF026E /* Tamagochi */ = {
 			isa = PBXGroup;
 			children = (
+				6486FF1B1CE58A14009E5D0F /* bite.wav */,
+				6486FF1C1CE58A14009E5D0F /* cave-music.mp3 */,
+				6486FF1D1CE58A14009E5D0F /* death.wav */,
+				6486FF1E1CE58A14009E5D0F /* heart.wav */,
+				6486FF1F1CE58A14009E5D0F /* skull.wav */,
 				64AC9C181CE10D7200BF026E /* AppDelegate.swift */,
 				64AC9C1A1CE10D7200BF026E /* ViewController.swift */,
 				64A6FF901CE5705A00A3AB72 /* MonsterImg.swift */,
@@ -129,6 +144,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6486FF241CE58A14009E5D0F /* skull.wav in Resources */,
+				6486FF201CE58A14009E5D0F /* bite.wav in Resources */,
+				6486FF221CE58A14009E5D0F /* death.wav in Resources */,
+				6486FF231CE58A14009E5D0F /* heart.wav in Resources */,
+				6486FF211CE58A14009E5D0F /* cave-music.mp3 in Resources */,
 				64AC9C231CE10D7200BF026E /* LaunchScreen.storyboard in Resources */,
 				64AC9C201CE10D7200BF026E /* Assets.xcassets in Resources */,
 				64AC9C1E1CE10D7200BF026E /* Main.storyboard in Resources */,

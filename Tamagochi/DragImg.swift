@@ -12,7 +12,7 @@ import UIKit
 class DragImg: UIImageView{
     
     var originalPosition: CGPoint!
-    var dropTarget: UIView?
+    var dropTarget: UIImageView?
     override init(frame: CGRect) {
         super.init(frame: frame)
     }
@@ -32,15 +32,36 @@ class DragImg: UIImageView{
     }
     override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
         if let touch = touches.first, let target = dropTarget{
-            let position = touch.locationInView(self.superview)
+            let position = touch.locationInView(target.superview)
+//            print (position)
             if CGRectContainsPoint(target.frame, position){
+                let point = touch.locationInView(target)
+                if (alphaFromPoint(point,target: target)) == 1.0{
                 //Submit notification that target was dropped correctly
-                NSNotificationCenter.defaultCenter().postNotification(NSNotification(name: "onTargetDropped", object: nil))
+                    NSNotificationCenter.defaultCenter().postNotification(NSNotification(name: "onTargetDropped", object: nil))
+                }
             }
 
         }
         
         
         self.center = originalPosition
+    }
+    
+    func alphaFromPoint(point: CGPoint,target: UIImageView) -> CGFloat {
+            var pixel: [UInt8] = [0, 0, 0, 1]
+            let colorSpace = CGColorSpaceCreateDeviceRGB()
+            let alphaInfo = CGBitmapInfo(rawValue: CGImageAlphaInfo.PremultipliedLast.rawValue)
+            let context = CGBitmapContextCreate(UnsafeMutablePointer(pixel), 1, 1, 8, 4, colorSpace, alphaInfo.rawValue)!
+    
+            CGContextTranslateCTM(context, -point.x, -point.y);
+    
+            target.layer.renderInContext(context)
+            print(pixel)
+            let floatAlpha = CGFloat(pixel[3])/255
+
+        
+        
+            return floatAlpha
     }
 }

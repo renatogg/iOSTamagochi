@@ -11,12 +11,14 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var monsterImg: UIImageView!
+    @IBOutlet weak var heartImg: UIImageView!
+    @IBOutlet weak var foodImg: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         var imgArray = [UIImage]()
-        for var i=1; i<=4 ;i++ {
+        for i in 1..<5 {
             let img = UIImage(named: "idle\(i).png")
             imgArray.append(img!)
         }
@@ -32,7 +34,7 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+   
 
 }
 

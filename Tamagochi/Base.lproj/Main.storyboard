@@ -234,6 +234,8 @@
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="foodImg" destination="6yl-us-OCG" id="xvp-pg-dhz"/>
+                        <outlet property="heartImg" destination="wNG-Pb-aed" id="gYb-Vf-Atj"/>
                         <outlet property="monsterImg" destination="mfn-83-6ws" id="RZT-Fe-aJH"/>
                     </connections>
                 </viewController>

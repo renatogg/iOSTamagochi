@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		64A6FF8F1CE56CCC00A3AB72 /* DragImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A6FF8E1CE56CCC00A3AB72 /* DragImg.swift */; };
+		64A6FF911CE5705A00A3AB72 /* MonsterImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A6FF901CE5705A00A3AB72 /* MonsterImg.swift */; };
 		64AC9C191CE10D7200BF026E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AC9C181CE10D7200BF026E /* AppDelegate.swift */; };
 		64AC9C1B1CE10D7200BF026E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AC9C1A1CE10D7200BF026E /* ViewController.swift */; };
 		64AC9C1E1CE10D7200BF026E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64AC9C1C1CE10D7200BF026E /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		64A6FF8E1CE56CCC00A3AB72 /* DragImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragImg.swift; sourceTree = "<group>"; };
+		64A6FF901CE5705A00A3AB72 /* MonsterImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonsterImg.swift; sourceTree = "<group>"; };
 		64AC9C151CE10D7200BF026E /* Tamagochi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tamagochi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64AC9C181CE10D7200BF026E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64AC9C1A1CE10D7200BF026E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			children = (
 				64AC9C181CE10D7200BF026E /* AppDelegate.swift */,
 				64AC9C1A1CE10D7200BF026E /* ViewController.swift */,
+				64A6FF901CE5705A00A3AB72 /* MonsterImg.swift */,
 				64A6FF8E1CE56CCC00A3AB72 /* DragImg.swift */,
 				64AC9C1C1CE10D7200BF026E /* Main.storyboard */,
 				64AC9C1F1CE10D7200BF026E /* Assets.xcassets */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64A6FF911CE5705A00A3AB72 /* MonsterImg.swift in Sources */,
 				64A6FF8F1CE56CCC00A3AB72 /* DragImg.swift in Sources */,
 				64AC9C1B1CE10D7200BF026E /* ViewController.swift in Sources */,
 				64AC9C191CE10D7200BF026E /* AppDelegate.swift in Sources */,
